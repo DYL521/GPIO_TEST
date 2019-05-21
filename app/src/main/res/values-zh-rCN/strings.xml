@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">开发示例</string> 
+    
+    <string name="power_demo">开关机测试</string> 
+    <string name="serialport_demo">串口测试</string> 
+    <string name="gpio_demo">GPIO测试</string> 
+    <string name="watchdog_demo">看门狗测试</string> 
+    <string name="screen_demo">屏幕开关</string> 
+    <string name="ethernet_demo">以太网</string> 
+    <string name="density_demo">显示密度</string> 
+    <string name="apk_demo">卸载/安装</string> 
+    <string name="system_demo">系统信息</string> 
+    <string name="hdmiin_demo">HDMI-IN</string> 
+    <string name="ota_demo">OTA升级</string> 
+    <string name="exit_app">退出</string> 
+
+    <string name="common_ok">确定</string> 
+    <string name="common_confirm">确认</string> 
+    <string name="common_cancel">取消</string>  
+    <string name="common_error">错误</string> 
+    <string name="common_refresh">刷新</string> 
+    
+    <string name="power_reboot">系统重启</string> 
+    <string name="power_schedule_prompt">请输入开机时间与当前时间差</string>
+    <string name="time_unit_minute">分钟后</string> 
+    <string name="power_schedule_poweroff">定时开机</string> 
+    
+    <string name="serialport_open">打开</string> 
+    <string name="serialport_close">关闭</string> 
+    <string name="serialport_send">发送</string> 
+    <string name="serialport_hex">十六进制</string> 
+    <string name="serialport_open_failed">打开失败</string> 
+ 
+    <string name="gpio_enable">打开</string> 
+    <string name="gpio_read">读</string>  
+    <string name="gpio_write">写</string>    
+    
+    
+    <string name="watchdog_enable">使能看门狗</string> 
+    <string name="watchdog_startfeed">定时喂狗[3秒]</string> 
+    <string name="watchdog_stopfeed">停止喂狗</string> 
+    <string name="watchdog_disable">关闭看门狗</string> 
+    
+    <string name="screen_on">开启屏幕</string> 
+    <string name="screen_off">关闭屏幕</string> 
+    <string name="screen_io">IO触发</string> 
+    
+    
+    <string name="switch_ethernet">以太网开关</string>
+    <string name="dhcp">DHCP自动获取地址</string> 
+    <string name="static_ip">手动设置如下地址</string>  
+    <string name="ip_address">IP 地址：</string>
+    <string name="net_mask">子网掩码：</string>
+    <string name="gate_way">网关地址：</string> 
+    <string name="dns_server">域名服务器：</string>
+    
+    
+    <string name="show_system_app">显示系统应用</string>  
+    <string name="install_apk">安装APK</string> 
+    <string name="uninstall_apk">卸载</string> 
+    <string name="apk_filedlg_title">选择APK文件</string>
+    <string name="ota_filedlg_title">选择OTA文件</string>
+     
+    <string name="system_version">系统版本：</string> 
+    <string name="kernel_version">内核版本:</string> 
+    <string name="api_version">API版本:</string>
+    <string name="running_memory">运行内存:</string> 
+    <string name="eth0_mac">以太网MAC:</string>    
+    <string name="wlan0_mac">WLAN MAC:</string>      
+    
+    
+    <string name="hdmiin_status">信号状态：</string> 
+    <string name="hdmiin_resolution">分辨率：</string> 
+</resources>

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/watchdog_enable"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp" 
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp" 
+        android:text="@string/watchdog_enable" /> 
+
+    <Button
+        android:id="@+id/watchdog_startfeed"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" 
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp" 
+        android:text="@string/watchdog_startfeed" />
+    
+    <Button
+        android:id="@+id/watchdog_stopfeed"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" 
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp" 
+        android:text="@string/watchdog_stopfeed" />
+    
+    <Button
+        android:id="@+id/watchdog_disable"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" 
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp" 
+        android:text="@string/watchdog_disable" /> 
+</LinearLayout>

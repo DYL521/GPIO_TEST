@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dev Demo</string> 
+    
+    <string name="power_demo">Power</string> 
+    <string name="serialport_demo">Serial Port</string> 
+    <string name="gpio_demo">GPIO</string> 
+    <string name="watchdog_demo">Watch Dog</string>
+    <string name="screen_demo">Screen</string> 
+    <string name="ethernet_demo">Ethernet</string> 
+    <string name="density_demo">Display Density</string> 
+    <string name="apk_demo">Install/Unintstall</string> 
+    <string name="system_demo">System</string> 
+    <string name="hdmiin_demo">HDMI-IN</string> 
+    <string name="ota_demo">OTA Upate</string> 
+    <string name="exit_app">Exit</string> 
+    
+    
+    <string name="common_ok">Ok</string> 
+    <string name="common_confirm">Ok</string> 
+    <string name="common_cancel">Cancel</string> 
+    <string name="common_error">Error</string> 
+    <string name="common_refresh">Refresh</string> 
+    
+    <string name="power_reboot">Reboot</string> 
+    <string name="power_schedule_prompt">Input start up time interval</string>
+    <string name="time_unit_minute">Minutes+</string> 
+    <string name="power_schedule_poweroff">Power Off</string> 
+    
+    <string name="serialport_open">Open</string> 
+    <string name="serialport_close">Close</string> 
+    <string name="serialport_send">Send</string> 
+    <string name="serialport_hex">Hex</string> 
+    <string name="serialport_open_failed">open failed</string> 
+    
+    <string name="gpio_enable">Enable</string>
+    <string name="gpio_read">Read</string>  
+    <string name="gpio_write">Write</string>    
+
+    
+    <string name="watchdog_enable">Enable</string> 
+    <string name="watchdog_startfeed">Auto Feed[3s]</string> 
+    <string name="watchdog_stopfeed">Stop Feed</string> 
+    <string name="watchdog_disable">Disable</string> 
+    
+    <string name="screen_on">Screen On</string> 
+    <string name="screen_off">Screen Off</string> 
+    <string name="screen_io">IO Trigger</string> 
+    
+    <string name="switch_ethernet">Ethernet Enable/Disable</string> 
+    <string name="dhcp">IP from a DHCP server</string> 
+    <string name="static_ip">Use the static settings below</string>  
+    <string name="ip_address">IP Address:</string>
+    <string name="net_mask">Subnet Mask:</string>
+    <string name="gate_way">Network Gateway:</string> 
+    <string name="dns_server">DNS Server:</string>
+    
+    
+    <string name="show_system_app">Show System App</string> 
+    <string name="install_apk">Install APK</string> 
+    <string name="uninstall_apk">Uninstall</string> 
+    <string name="apk_filedlg_title">Select APK File</string> 
+    <string name="ota_filedlg_title">Select OTA File</string>
+    
+    <string name="system_version">System Version:</string> 
+    <string name="kernel_version">Kernel Version:</string> 
+    <string name="api_version">API Version:</string> 
+    <string name="running_memory">Running Memory:</string> 
+    <string name="eth_mac">Ethernet MAC:</string>    
+    <string name="wlan0_mac">WLAN MAC:</string>   
+    
+    <string name="hdmiin_status">Signal:</string> 
+    <string name="hdmiin_resolution">Resolution:</string> 
+</resources>

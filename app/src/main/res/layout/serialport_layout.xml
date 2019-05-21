@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/combox_com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:gravity="left|top"
+            android:spinnerMode="dropdown" />
+        
+        <Spinner
+            android:id="@+id/combox_baudrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:gravity="left|top" 
+            android:spinnerMode="dropdown"  />
+
+        <Button
+            android:id="@+id/button_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="right|center_vertical"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text="@string/serialport_open"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="right|center_vertical"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text="@string/serialport_close"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/eidt_receive"
+        android:layout_width="420dp"
+        android:layout_height="480px"
+        android:layout_margin="2dp"
+        android:background="@drawable/serialport_edit"
+        android:focusable="false"
+        android:gravity="left|top"
+        android:inputType="none"
+        android:lineSpacingExtra="1dp"
+        android:paddingTop="10dp"
+        android:singleLine="false"
+        android:text=""
+        android:textSize="14sp" />
+<!-- android:typeface="monospace" -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:text="@string/serialport_send"
+            android:textSize="30px" />
+        <CheckBox 
+            android:id="@+id/chb_hex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:text="@string/serialport_hex"
+            android:textSize="30px" />
+    </LinearLayout>
+
+</LinearLayout>

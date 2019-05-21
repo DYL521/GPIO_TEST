@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:state_focused="true">
+        <layer-list>
+            <!-- 连框颜色值 -->
+            <item>
+                <shape>
+                    <solid android:color="#00CE9B" />
+                </shape>
+            </item>
+            <!-- 主体背景颜色值 -->
+            <item android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp">
+                <shape>
+                    <solid android:color="#FFFFFF" /> 
+                    <padding android:bottom="12dp" android:left="12dp" android:right="12dp" android:top="12dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item> 
+ 
+    <item android:state_enabled="false">
+        <layer-list>
+            <!-- 连框颜色值 -->
+            <item>
+                <shape>
+                    <solid android:color="#C9CACD" />
+                </shape>
+            </item>
+            <!-- 主体背景颜色值 -->
+            <item android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp">
+                <shape>
+                    <solid android:color="#CCCCCC" /> 
+                    <padding android:bottom="12dp" android:left="12dp" android:right="12dp" android:top="12dp" />
+                </shape>
+            </item>
+        </layer-list> 
+    </item> 
+     
+	<item>
+        <layer-list>
+            <!-- 连框颜色值 -->
+            <item>
+                <shape>
+                    <solid android:color="#C9CACD" />
+                </shape>
+            </item>
+            <!-- 主体背景颜色值 -->
+            <item android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp">
+                <shape>
+                    <solid android:color="#FFFFFF" /> 
+                    <padding android:bottom="12dp" android:left="12dp" android:right="12dp" android:top="12dp" />
+                </shape>
+            </item>
+        </layer-list> 
+    </item> 
+</selector>

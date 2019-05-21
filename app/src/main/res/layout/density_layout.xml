@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/dpi_120"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp" 
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp" 
+        android:text="ldpi(120)" /> 
+        
+    <Button
+        android:id="@+id/dpi_160"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" 
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp" 
+        android:text="mdpi(160)" /> 
+
+    <Button
+        android:id="@+id/dpi_240"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" 
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp" 
+        android:text="hdpi(240)" />
+    
+    <Button
+        android:id="@+id/dpi_320"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" 
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp" 
+        android:text="xhdpi(320)" />
+    
+    <Button
+        android:id="@+id/dpi_480"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" 
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp" 
+        android:text="xxhdpi(480)" /> 
+</LinearLayout>

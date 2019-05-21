@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:padding="0dp"
+            android:singleLine="true"
+            android:text="GPIO:" 
+            android:textStyle="bold"
+             />
+
+        <EditText
+            android:id="@+id/gpid_port"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:inputType="number"
+            android:maxLength="5"
+            android:numeric="integer"
+            android:padding="0dp"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/gpio_enable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:text="@string/gpio_enable" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/gpio_direction_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <RadioButton
+            android:id="@+id/gpio_in_radiobutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:gravity="right|center_vertical"
+            android:drawablePadding="5dp"
+            android:button="@null"  
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="in"
+            android:enabled="false"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/gpio_out_radiobutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:drawablePadding="5dp"
+            android:text="out"
+            android:enabled="false"
+            android:checked="false"  />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/gpio_value_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <RadioButton
+            android:id="@+id/gpio_value_low"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:gravity="right|center_vertical"
+            android:drawablePadding="5dp"
+            android:button="@null"  
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="0"
+            android:enabled="false"
+            android:checked="false"  />
+
+        <RadioButton
+            android:id="@+id/gpio_value_high"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:drawablePadding="5dp"
+            android:text="1"
+            android:enabled="false"
+            android:checked="false"  />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/gpio_direction_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="0dp" >
+
+        <Button
+            android:id="@+id/gpio_read_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:includeFontPadding="false"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="0dp"
+            android:text="@string/gpio_read"
+            android:textSize="16sp"
+            android:enabled="false"  />
+
+        <Button
+            android:id="@+id/gpio_write_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:includeFontPadding="false"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="0dp"
+            android:text="@string/gpio_write"
+            android:textSize="16sp"
+            android:enabled="false"  />
+    </LinearLayout>
+
+</LinearLayout>

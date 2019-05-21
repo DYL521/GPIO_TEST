@@ -1,0 +1,282 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\23e1fb2b6d906e2748c5c046f20fcca7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\6dd3088c157d734297fcb6facb188bef\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\f3d478d6d6d2e4708232c7bf1bfd5224\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\9c1edaab32d247375b76ba39d319e117\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\4ffc0f071cbf7ea5a486aef0abb427c7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\ff395bb8faba191426edc8b64adc7252\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\fc2efe27cccdc6a7e3273cabcbb647bf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\c0d0e7fc571e40edbda2185ac6d26028\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\5430515b50f62ce2f5859298979ca47e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\22a10c8e516263521529f97e5574ae7a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\d38ce81361194029516bad4352207f02\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\59e3366a7238b226f3537e17ed321ec4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\9a4d9712ebee3ed74dfd5ec3adb4bffe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\389dce105ca839afff7ddb24a0714f46\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\b47e8e87864832efcac36494e04ab84d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\629c1ec48e656f73e3b02fa7a18ee074\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\87e4a8dc0c2853766cbdf0c31ac1f669\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\3466a1ab21830868235bb372cee8decd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\309614ac11cd9779fa77f615aa330052\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\7e56455b028286faef2364bb59d2db84\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\9ff1887d6a88903ce26c689483cbc655\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\2f0a0bf293515caa5716bf12bb7120e2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\003f5c544c94ef1082e1b335318a921d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\1109a801a75530c322b1d646db4a5fbc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\375b2c2d834724c066359d7b1a0e31aa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\2706829d40ee036af437d24b20cdcced\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\fc038cb588c33b36a2cd00cd002dc68b\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+		INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:5:5-41
+		INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+		INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+		INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_SURFACE_FLINGER
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.CONNECTIVITY_INTERNAL
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.DEVICE_POWER
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:14:22-68
+uses-permission#android.permission.GET_TASKS
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.INTERNET
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:17:5-84
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:17:22-81
+uses-permission#android.permission.READFRAMEBUFFER
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:18:22-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:20:5-77
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:20:22-74
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:21:22-75
+uses-permission#android.permission.UPDATE_DEVICE_STATS
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:22:5-78
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:22:22-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:24:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:25:22-70
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:26:22-75
+application
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:28:5-54:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\6dd3088c157d734297fcb6facb188bef\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\6dd3088c157d734297fcb6facb188bef\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\629c1ec48e656f73e3b02fa7a18ee074\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\629c1ec48e656f73e3b02fa7a18ee074\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\87e4a8dc0c2853766cbdf0c31ac1f669\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\87e4a8dc0c2853766cbdf0c31ac1f669\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\629c1ec48e656f73e3b02fa7a18ee074\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:31:9-41
+	android:icon
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:30:9-45
+	android:allowBackup
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:32:9-45
+activity#com.lztek.api.demo.MainActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:33:9-41:20
+	android:label
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:35:13-45
+	android:theme
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:34:13-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:39:27-74
+activity#com.lztek.api.demo.PowerActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:42:9-69
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:42:19-66
+activity#com.lztek.api.demo.RightButtonActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:43:9-75
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:43:19-72
+activity#com.lztek.api.demo.SerialPortActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:44:9-74
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:44:19-71
+activity#com.lztek.api.demo.WatchDogActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:45:9-72
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:45:19-69
+activity#com.lztek.api.demo.GPIOActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:46:9-68
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:46:19-65
+activity#com.lztek.api.demo.ScreenActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:47:9-70
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:47:19-67
+activity#com.lztek.api.demo.EthernetActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:48:9-72
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:48:19-69
+activity#com.lztek.api.demo.DensityActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:49:9-71
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:49:19-68
+activity#com.lztek.api.demo.ApkActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:50:9-67
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:50:19-64
+activity#com.lztek.api.demo.SystemActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:51:9-70
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:51:19-67
+activity#com.lztek.api.demo.HdmiInActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:52:9-70
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:52:19-67
+activity#com.lztek.api.demo.OtaUpdateActivity
+ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:53:9-73
+	android:name
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml:53:19-70
+uses-sdk
+INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\23e1fb2b6d906e2748c5c046f20fcca7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\23e1fb2b6d906e2748c5c046f20fcca7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\6dd3088c157d734297fcb6facb188bef\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\6dd3088c157d734297fcb6facb188bef\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\f3d478d6d6d2e4708232c7bf1bfd5224\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\f3d478d6d6d2e4708232c7bf1bfd5224\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\9c1edaab32d247375b76ba39d319e117\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\9c1edaab32d247375b76ba39d319e117\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\4ffc0f071cbf7ea5a486aef0abb427c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\4ffc0f071cbf7ea5a486aef0abb427c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\ff395bb8faba191426edc8b64adc7252\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\ff395bb8faba191426edc8b64adc7252\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\fc2efe27cccdc6a7e3273cabcbb647bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\fc2efe27cccdc6a7e3273cabcbb647bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\c0d0e7fc571e40edbda2185ac6d26028\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\c0d0e7fc571e40edbda2185ac6d26028\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\5430515b50f62ce2f5859298979ca47e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\5430515b50f62ce2f5859298979ca47e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\22a10c8e516263521529f97e5574ae7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\22a10c8e516263521529f97e5574ae7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\d38ce81361194029516bad4352207f02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\d38ce81361194029516bad4352207f02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\59e3366a7238b226f3537e17ed321ec4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\59e3366a7238b226f3537e17ed321ec4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\9a4d9712ebee3ed74dfd5ec3adb4bffe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\9a4d9712ebee3ed74dfd5ec3adb4bffe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\389dce105ca839afff7ddb24a0714f46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\389dce105ca839afff7ddb24a0714f46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\b47e8e87864832efcac36494e04ab84d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\b47e8e87864832efcac36494e04ab84d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\629c1ec48e656f73e3b02fa7a18ee074\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\629c1ec48e656f73e3b02fa7a18ee074\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\87e4a8dc0c2853766cbdf0c31ac1f669\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\87e4a8dc0c2853766cbdf0c31ac1f669\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\3466a1ab21830868235bb372cee8decd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\3466a1ab21830868235bb372cee8decd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\309614ac11cd9779fa77f615aa330052\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\309614ac11cd9779fa77f615aa330052\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\7e56455b028286faef2364bb59d2db84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\7e56455b028286faef2364bb59d2db84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\9ff1887d6a88903ce26c689483cbc655\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\9ff1887d6a88903ce26c689483cbc655\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\2f0a0bf293515caa5716bf12bb7120e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\2f0a0bf293515caa5716bf12bb7120e2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\003f5c544c94ef1082e1b335318a921d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\003f5c544c94ef1082e1b335318a921d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\1109a801a75530c322b1d646db4a5fbc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\1109a801a75530c322b1d646db4a5fbc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\375b2c2d834724c066359d7b1a0e31aa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\375b2c2d834724c066359d7b1a0e31aa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\2706829d40ee036af437d24b20cdcced\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\2706829d40ee036af437d24b20cdcced\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\fc038cb588c33b36a2cd00cd002dc68b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\DYL\.gradle\caches\transforms-2\files-2.1\fc038cb588c33b36a2cd00cd002dc68b\AndroidManifest.xml:20:5-44
+INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+		INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+		ADDED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml
+		INJECTED from F:\work_android\test_gpio\app\src\main\AndroidManifest.xml

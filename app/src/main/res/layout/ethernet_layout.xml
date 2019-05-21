@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+	    	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="5dp"   
+                android:orientation="horizontal"  >
+	            <CheckBox 
+	                android:id="@+id/switch_ethernet"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" 
+                    android:text="@string/switch_ethernet"
+	                />  
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="5dp"   
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/ip_mode"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/dhcp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dhcp"   />
+
+                        <RadioButton
+                            android:id="@+id/staticip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                			android:layout_marginTop="5dp"
+                            android:text="@string/static_ip"  />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/ip_address"
+                        android:textSize="16sp" 
+                        />
+
+                    <EditText
+                        android:id="@+id/ip_address"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp" 
+                        android:digits="1234567890."
+                        android:inputType="number"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/net_mask"
+                        android:textSize="16sp"  />
+
+                    <EditText
+                        android:id="@+id/net_mask"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp" 
+                        android:digits="1234567890."
+                        android:inputType="number"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/gate_way"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/gate_way"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp" 
+                        android:digits="1234567890."
+                        android:inputType="number"
+                        android:singleLine="true" />
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/dns_server"
+                        android:textSize="16sp"  />
+
+                    <EditText
+                        android:id="@+id/dns_server"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp" 
+                        android:digits="1234567890."
+                        android:inputType="number"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+        		android:layout_marginBottom="30dp"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/ethernet_ok"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" 
+                    android:onClick="Connection"
+                    android:text="@string/common_confirm" />
+
+                <Button
+                    android:id="@+id/ethernet_refresh"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp" 
+                    android:onClick="tomain"
+                    android:text="@string/common_refresh" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
